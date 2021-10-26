@@ -1,0 +1,19 @@
+[package]
+name = "verbosity"
+version = "0.1.0"
+edition = "2021"
+description = "Utility library for working with cli output ergonomically"
+license = "MIT"
+include = ["src/**/*", "Cargo.toml", "LICENSE-MIT", "README.md"]
+homepage = "https://github.com/Nejat/verbosity-rs"
+repository = "https://github.com/Nejat/verbosity-rs"
+keywords = ["reporting", "verbosity"]
+categories = ["command-line-interface"]
+authors = ["Nejat<nejatoz@gmail.com>"]
+
+[dependencies]
+lazy_static = "1.4"
+parking_lot = "0.11"
+
+[dev-dependencies]
+version-sync = "0.9"
